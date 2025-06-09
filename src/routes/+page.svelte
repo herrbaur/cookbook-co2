@@ -170,6 +170,10 @@
           <div class="row">
             <div class="col-md-8">
               <p>{selectedRecipe.description}</p>
+              {#if selectedRecipe.instructions}
+                <h6 class="mt-3">Anleitung</h6>
+                <p>{selectedRecipe.instructions}</p>
+              {/if}
             </div>
             <div class="col-md-4">
               <ul class="list-group">
