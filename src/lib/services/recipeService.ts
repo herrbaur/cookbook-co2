@@ -2,7 +2,6 @@ import { writable, get } from "svelte/store";
 import type { Recipe } from "$lib/models/recipe";
 import { Season } from "$lib/models/season";
 import { Unit } from "$lib/models/unit";
-import { Co2Service } from "$lib/services/co2Service";
 
 function normalizeSeason(value: string): Season {
   const season = value.trim().toLowerCase();
@@ -67,15 +66,6 @@ export class RecipeService {
         };
       });
       console.log("Recipes loaded:", data); // Make sure recipes are loaded
-      const co2 = new Co2Service();
-      for (const recipe of data) {
-        try {
-          recipe.totalCo2 = await co2.calculateRecipeCo2(recipe);
-        } catch (err) {
-          console.error('CO2 calculation failed', err);
-          recipe.totalCo2 = 0;
-        }
-      }
       this.recipes.set(data); // Set recipes to the store
     } catch (error) {
       console.error("Error loading recipes:", error);

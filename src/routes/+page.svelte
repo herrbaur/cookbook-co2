@@ -179,7 +179,7 @@
               <ul class="list-group">
                 <li class="list-group-item d-flex justify-content-between"><span>Kalorien</span><span></span></li>
                 <li class="list-group-item d-flex justify-content-between"><span>Preis</span><span></span></li>
-                <li class="list-group-item d-flex justify-content-between"><span>CO₂</span><span>{selectedRecipe.totalCo2?.toFixed(2)} g</span></li>
+                <li class="list-group-item d-flex justify-content-between"><span>CO₂</span><span></span></li>
               </ul>
             </div>
           </div>
