@@ -50,7 +50,8 @@
         "amount": 0,
         "unit": "None"
       }
-    ]
+    ],
+    "instructions": "Lasagneblätter vorkochen, Spinat mit Knoblauch dünsten und mit Ricotta vermengen. Sauce und Nudeln abwechselnd mit der Spinatmischung schichten und mit Mozzarella überbacken."
   },
   {
     "id": 2,
@@ -93,7 +94,8 @@
         "amount": 0,
         "unit": "None"
       }
-    ]
+    ],
+    "instructions": "Tomaten und Mozzarella in Scheiben schneiden, auf einem Teller anrichten, mit Basilikum bestreuen und mit Olivenöl und Balsamico beträufeln."
   },
   {
     "id": 3,
@@ -146,7 +148,8 @@
         "amount": 0,
         "unit": "None"
       }
-    ]
+    ],
+    "instructions": "Gemüse in Stücke schneiden, in einer Marinade aus Öl, Sojasauce und Knoblauch wenden, aufspießen und grillen bis alles gar ist."
   },
   {
     "id": 4,
@@ -204,7 +207,8 @@
         "amount": 0,
         "unit": "None"
       }
-    ]
+    ],
+    "instructions": "Linsen waschen, mit angebratenem Gemüse in Brühe köcheln lassen, würzen und servieren."
   },
   {
     "id": 5,
@@ -262,7 +266,8 @@
         "amount": 0,
         "unit": "None"
       }
-    ]
+    ],
+    "instructions": "Gemüse klein schneiden und im heißen Öl anbraten, mit Sojasauce ablöschen und kurz garen."
   },
   {
     "id": 6,
@@ -315,7 +320,8 @@
         "amount": 0,
         "unit": "None"
       }
-    ]
+    ],
+    "instructions": "Kürbis mit Zwiebel anschwitzen, Brühe hinzufügen und weich kochen, anschließend pürieren und abschmecken."
   },
   {
     "id": 7,
@@ -358,7 +364,8 @@
         "amount": 0.25,
         "unit": "Tasse"
       }
-    ]
+    ],
+    "instructions": "Kichererbsen würzen und anbraten, Tacos damit füllen und nach Belieben garnieren."
   },
   {
     "id": 8,
@@ -411,7 +418,8 @@
         "amount": 0,
         "unit": "None"
       }
-    ]
+    ],
+    "instructions": "Auberginenscheiben anbraten, mit Tomatensauce und Parmesan schichten und im Ofen überbacken."
   },
   {
     "id": 9,
@@ -449,7 +457,8 @@
         "amount": 0,
         "unit": "None"
       }
-    ]
+    ],
+    "instructions": "Salat mit Croutons und Parmesan mischen, mit einem cremigen Dressing aus Senf, Zitronensaft und Öl servieren."
   },
   {
     "id": 10,
@@ -512,7 +521,8 @@
         "amount": 0,
         "unit": "None"
       }
-    ]
+    ],
+    "instructions": "Paprika mit einer Mischung aus Reis, Bohnen und Gewürzen füllen und im Ofen garen."
   },
   {
     "id": 11,
@@ -575,6 +585,7 @@
         "amount": 0,
         "unit": "None"
       }
-    ]
+    ],
+    "instructions": "Reis mit Zwiebeln anschwitzen, nach und nach Brühe angießen, Pilze separat braten und am Ende unterheben."
   }
 ]
