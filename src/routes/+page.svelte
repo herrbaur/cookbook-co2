@@ -61,7 +61,7 @@
   const seasons: { label: string; value: Season }[] = [
     { label: "Frühling", value: Season.Spring },
     { label: "Sommer", value: Season.Summer },
-    { label: "Herbst", value: Season.Autumn },
+    { label: "Herbst", value: Season.Fall },
     { label: "Winter", value: Season.Winter },
   ];
 
