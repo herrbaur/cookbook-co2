@@ -1,7 +1,7 @@
 <script lang="ts">
   import { RecipeService } from "$lib/services/recipeService";
   import type { Recipe } from "$lib/models/recipe";
-  import { Season } from "$lib/models/season";
+  import { Season, SeasonDisplay } from "$lib/models/season";
   import { onMount } from "svelte";
   import Header from "./Header.svelte";
   import Footer from "./Footer.svelte";
@@ -138,7 +138,7 @@
           <div class="card-body">
             <h5 class="card-title">{recipe.title}</h5>
             <p class="card-text">{recipe.description}</p>
-            <span class="badge bg-secondary">{recipe.season}</span>
+            <span class="badge bg-secondary">{SeasonDisplay[recipe.season]}</span>
           </div>
         </div>
       </div>
@@ -152,7 +152,7 @@
       <div class="modal-content">
         <div class="modal-header">
           <h5 class="modal-title">{selectedRecipe.title}</h5>
-          <button type="button" class="btn-close" aria-label="Close" on:click={closeModal}></button>
+          <button type="button" class="btn-close" aria-label="Schließen" on:click={closeModal}></button>
         </div>
         <div class="modal-body">
           <div class="text-center mb-3">
@@ -164,7 +164,7 @@
             <div class="d-flex justify-content-center gap-2 mt-2">
               {#if selectedRecipe.duration}<span class="badge bg-info">{selectedRecipe.duration}</span>{/if}
               {#if selectedRecipe.difficulty}<span class="badge bg-warning">{selectedRecipe.difficulty}</span>{/if}
-              <span class="badge bg-secondary">{selectedRecipe.season}</span>
+              <span class="badge bg-secondary">{SeasonDisplay[selectedRecipe.season]}</span>
             </div>
           </div>
           <div class="row">
@@ -173,15 +173,15 @@
             </div>
             <div class="col-md-4">
               <ul class="list-group">
-                <li class="list-group-item d-flex justify-content-between"><span>Calories</span><span></span></li>
-                <li class="list-group-item d-flex justify-content-between"><span>Price</span><span></span></li>
+                <li class="list-group-item d-flex justify-content-between"><span>Kalorien</span><span></span></li>
+                <li class="list-group-item d-flex justify-content-between"><span>Preis</span><span></span></li>
                 <li class="list-group-item d-flex justify-content-between"><span>CO₂</span><span></span></li>
               </ul>
             </div>
           </div>
         </div>
         <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" on:click={closeModal}>Close</button>
+          <button type="button" class="btn btn-secondary" on:click={closeModal}>Schließen</button>
         </div>
       </div>
     </div>
