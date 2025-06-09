@@ -1,50 +1,94 @@
-// src/lib/services/recipeService.ts
-import type { Recipe } from '$lib/models/recipe';
-import { Season } from '$lib/models/season';
-import { Unit } from '$lib/models/unit';
+import { writable } from "svelte/store";
+import type { Recipe } from "$lib/models/recipe";
+import { Season } from "$lib/models/season";
 
 export class RecipeService {
-  // Beispiel-Datenquelle (könnte später aus einer API oder localStorage kommen)
-  private recipes: Recipe[] = [
-    {
-      id: '1',
-      title: 'Tomatensalat',
-      description: 'Ein frischer Salat für den Sommer.',
-      season: Season.Summer,
-      ingredients: [
-        { name: 'Tomaten', amount: 300, unit: Unit.Gram, co2: 200, price: 1.5 },
-        { name: 'Olivenöl', amount: 2, unit: Unit.Tablespoon, co2: 50, price: 0.2 },
-      ],
-    },
-    {
-      id: '2',
-      title: 'Kürbiscremesuppe',
-      description: 'Ein wärmendes Gericht für den Herbst.',
-      season: Season.Autumn,
-      ingredients: [
-        { name: 'Kürbis', amount: 500, unit: Unit.Gram, co2: 300, price: 2.0 },
-        { name: 'Sahne', amount: 100, unit: Unit.Milliliter, co2: 100, price: 0.5 },
-      ],
-    },
-  ];
+  // Store to hold recipes
+  public recipes = writable<Recipe[]>([]);
 
-  // Rezepte filtern nach Saison
-  filterBySeason(season: Season): Recipe[] {
-    return this.recipes.filter(recipe => recipe.season === season);
+  // Load recipes from the JSON file
+  public async loadRecipes(): Promise<void> {
+    try {
+      const response = await fetch("/recipes.json");
+      if (!response.ok) {
+        throw new Error(`Failed to fetch recipes: ${response.statusText}`);
+      }
+      const data: Recipe[] = await response.json();
+      console.log("Recipes loaded:", data);  // Make sure recipes are loaded
+      this.recipes.set(data); // Set recipes to the store
+    } catch (error) {
+      console.error("Error loading recipes:", error);
+    }
   }
 
-  // Alle Rezepte zurückgeben
+  // Filter recipes by season and ingredients
+  filterBySeasonAndIngredient(season: Season, ingredients: string[]): Recipe[] {
+    let result: Recipe[] = [];
+    
+    // Subscribe to recipes store to get the current recipes
+    this.recipes.subscribe((recipes) => {
+      result = recipes.filter(
+        (recipe) =>
+          recipe.season === season &&
+          ingredients.every((ingredient) =>
+            recipe.ingredients.some(
+              (ing) => ing.name.toLowerCase() === ingredient.toLowerCase()
+            )
+          )
+      );
+    });
+
+    return result;
+  }
+
+  // Return all recipes
   getAllRecipes(): Recipe[] {
-    return this.recipes;
+    let allRecipes: Recipe[] = [];
+    
+    // Subscribe to recipes store to get the current recipes
+    this.recipes.subscribe((recipes) => {
+      allRecipes = recipes;
+    });
+
+    return allRecipes;
   }
 
-  // Ein Rezept anhand seiner ID finden
-  getRecipeById(id: string): Recipe | undefined {
-    return this.recipes.find(recipe => recipe.id === id);
+  // Get all ingredients from the recipes
+  getAllIngredients(recipes: Recipe[]): string[] {
+    const ingredients = recipes.flatMap((r) =>
+      r.ingredients.map((i) => i.name)
+    );
+    return Array.from(new Set(ingredients)); // Remove duplicates
   }
 
-  // Rezept nach Titel filtern
+  // Find a recipe by its ID
+  getRecipeById(id: string): Recipe | null {
+    let recipe: Recipe | null = null;
+    
+    // Subscribe to recipes store to get the current recipes
+    this.recipes.subscribe((recipes) => {
+      recipe = recipes.find((recipe) => recipe.id === id) || null;
+    });
+
+    return recipe;
+  }
+
+  // Filter recipes by title
   filterByTitle(query: string): Recipe[] {
-    return this.recipes.filter(recipe => recipe.title.toLowerCase().includes(query.toLowerCase()));
+    let result: Recipe[] = [];
+    
+    // Subscribe to recipes store to get the current recipes
+    this.recipes.subscribe((recipes) => {
+      result = recipes.filter((recipe) =>
+        recipe.title.toLowerCase().includes(query.toLowerCase())
+      );
+    });
+
+    return result;
+  }
+
+  filterByIngredient(ingredient: string[]): Recipe[] {
+    // Placeholder for ingredient filtering logic
+    throw new Error("Method not implemented.");
   }
 }

@@ -1,0 +1,192 @@
+[
+  {
+    "id": 1,
+    "title": "Spaghetti Carbonara",
+    "description": "A classic Italian pasta dish made with eggs, cheese, pancetta, and pepper.",
+    "season": "Winter",
+    "image": "https://example.com/images/spaghetti-carbonara.jpg",
+    "ingredients": [
+      { "name": "spaghetti", "amount": "200g" },
+      { "name": "eggs", "amount": "2 large" },
+      { "name": "pancetta", "amount": "100g" },
+      { "name": "Parmesan cheese", "amount": "50g, grated" },
+      { "name": "black pepper", "amount": "to taste" },
+      { "name": "salt", "amount": "to taste" }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Tomato Soup",
+    "description": "A comforting soup made with fresh tomatoes, herbs, and a hint of cream.",
+    "season": "Fall",
+    "image": "https://example.com/images/tomato-soup.jpg",
+    "ingredients": [
+      { "name": "tomatoes", "amount": "1kg, chopped" },
+      { "name": "onion", "amount": "1 large, chopped" },
+      { "name": "garlic", "amount": "2 cloves, minced" },
+      { "name": "vegetable broth", "amount": "750ml" },
+      { "name": "heavy cream", "amount": "100ml" },
+      { "name": "olive oil", "amount": "1 tbsp" },
+      { "name": "salt", "amount": "to taste" },
+      { "name": "black pepper", "amount": "to taste" }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Grilled Chicken Salad",
+    "description": "A healthy salad with grilled chicken, greens, and a light vinaigrette.",
+    "season": "Summer",
+    "image": "https://example.com/images/grilled-chicken-salad.jpg",
+    "ingredients": [
+      { "name": "chicken breast", "amount": "2 breasts" },
+      { "name": "mixed salad greens", "amount": "200g" },
+      { "name": "cherry tomatoes", "amount": "150g, halved" },
+      { "name": "cucumber", "amount": "1, sliced" },
+      { "name": "olive oil", "amount": "1 tbsp" },
+      { "name": "balsamic vinegar", "amount": "1 tbsp" },
+      { "name": "salt", "amount": "to taste" },
+      { "name": "black pepper", "amount": "to taste" }
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Beef Stew",
+    "description": "A hearty stew with tender beef, carrots, potatoes, and onions.",
+    "season": "Winter",
+    "image": "https://example.com/images/beef-stew.jpg",
+    "ingredients": [
+      { "name": "beef stew meat", "amount": "500g, cubed" },
+      { "name": "carrots", "amount": "3, chopped" },
+      { "name": "potatoes", "amount": "4, cubed" },
+      { "name": "onion", "amount": "1 large, chopped" },
+      { "name": "garlic", "amount": "3 cloves, minced" },
+      { "name": "beef broth", "amount": "1 liter" },
+      { "name": "tomato paste", "amount": "2 tbsp" },
+      { "name": "olive oil", "amount": "1 tbsp" },
+      { "name": "salt", "amount": "to taste" },
+      { "name": "black pepper", "amount": "to taste" },
+      { "name": "bay leaves", "amount": "2" }
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Vegetable Stir-fry",
+    "description": "A quick and healthy stir-fry with mixed vegetables and soy sauce.",
+    "season": "Spring",
+    "image": "https://example.com/images/vegetable-stir-fry.jpg",
+    "ingredients": [
+      { "name": "broccoli", "amount": "200g, florets" },
+      { "name": "carrots", "amount": "2, julienned" },
+      { "name": "bell peppers", "amount": "2, sliced" },
+      { "name": "onion", "amount": "1 medium, sliced" },
+      { "name": "soy sauce", "amount": "2 tbsp" },
+      { "name": "sesame oil", "amount": "1 tbsp" },
+      { "name": "garlic", "amount": "2 cloves, minced" },
+      { "name": "ginger", "amount": "1-inch piece, minced" },
+      { "name": "salt", "amount": "to taste" },
+      { "name": "black pepper", "amount": "to taste" }
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Pumpkin Soup",
+    "description": "A smooth and creamy soup made with roasted pumpkin and spices.",
+    "season": "Fall",
+    "image": "https://example.com/images/pumpkin-soup.jpg",
+    "ingredients": [
+      { "name": "pumpkin", "amount": "500g, peeled and cubed" },
+      { "name": "onion", "amount": "1 large, chopped" },
+      { "name": "garlic", "amount": "2 cloves, minced" },
+      { "name": "vegetable broth", "amount": "750ml" },
+      { "name": "coconut milk", "amount": "200ml" },
+      { "name": "olive oil", "amount": "1 tbsp" },
+      { "name": "nutmeg", "amount": "1/4 tsp" },
+      { "name": "salt", "amount": "to taste" },
+      { "name": "black pepper", "amount": "to taste" }
+    ]
+  },
+  {
+    "id": 7,
+    "title": "Chicken Tacos",
+    "description": "Soft tortillas filled with seasoned chicken, salsa, and guacamole.",
+    "season": "Summer",
+    "image": "https://example.com/images/chicken-tacos.jpg",
+    "ingredients": [
+      { "name": "chicken breast", "amount": "2 breasts, diced" },
+      { "name": "taco seasoning", "amount": "2 tbsp" },
+      { "name": "soft tortillas", "amount": "8" },
+      { "name": "salsa", "amount": "1/2 cup" },
+      { "name": "guacamole", "amount": "1/2 cup" },
+      { "name": "cheese", "amount": "1/2 cup, shredded" },
+      { "name": "cilantro", "amount": "1/4 cup, chopped" }
+    ]
+  },
+  {
+    "id": 8,
+    "title": "Eggplant Parmesan",
+    "description": "Fried eggplant slices layered with marinara sauce and melted cheese.",
+    "season": "Fall",
+    "image": "https://example.com/images/eggplant-parmesan.jpg",
+    "ingredients": [
+      { "name": "eggplant", "amount": "2 medium, sliced" },
+      { "name": "breadcrumbs", "amount": "1 cup" },
+      { "name": "egg", "amount": "1, beaten" },
+      { "name": "marinara sauce", "amount": "1 cup" },
+      { "name": "mozzarella cheese", "amount": "200g, shredded" },
+      { "name": "Parmesan cheese", "amount": "50g, grated" },
+      { "name": "olive oil", "amount": "for frying" },
+      { "name": "salt", "amount": "to taste" },
+      { "name": "black pepper", "amount": "to taste" }
+    ]
+  },
+  {
+    "id": 9,
+    "title": "Caesar Salad",
+    "description": "A classic Caesar salad with romaine lettuce, croutons, and creamy dressing.",
+    "season": "Summer",
+    "image": "https://example.com/images/caesar-salad.jpg",
+    "ingredients": [
+      { "name": "romaine lettuce", "amount": "2 heads, chopped" },
+      { "name": "croutons", "amount": "1 cup" },
+      { "name": "Parmesan cheese", "amount": "50g, grated" },
+      { "name": "Caesar dressing", "amount": "1/2 cup" },
+      { "name": "salt", "amount": "to taste" },
+      { "name": "black pepper", "amount": "to taste" }
+    ]
+  },
+  {
+    "id": 10,
+    "title": "Beef Tacos",
+    "description": "Soft tortillas filled with seasoned beef, cheese, and lettuce.",
+    "season": "Spring",
+    "image": "https://example.com/images/beef-tacos.jpg",
+    "ingredients": [
+      { "name": "ground beef", "amount": "500g" },
+      { "name": "taco seasoning", "amount": "2 tbsp" },
+      { "name": "soft tortillas", "amount": "8" },
+      { "name": "cheese", "amount": "1/2 cup, shredded" },
+      { "name": "lettuce", "amount": "1/2 head, shredded" },
+      { "name": "salsa", "amount": "1/4 cup" }
+    ]
+  },
+  {
+    "id": 11,
+    "title": "Mushroom Risotto",
+    "description": "Creamy risotto with sautéed mushrooms and Parmesan cheese.",
+    "season": "Fall",
+    "image": "https://example.com/images/mushroom-risotto.jpg",
+    "ingredients": [
+      { "name": "Arborio rice", "amount": "200g" },
+      { "name": "mushrooms", "amount": "200g, sliced" },
+      { "name": "onion", "amount": "1 small, chopped" },
+      { "name": "garlic", "amount": "2 cloves, minced" },
+      { "name": "vegetable broth", "amount": "750ml" },
+      { "name": "white wine", "amount": "100ml" },
+      { "name": "Parmesan cheese", "amount": "50g, grated" },
+      { "name": "butter", "amount": "2 tbsp" },
+      { "name": "olive oil", "amount": "1 tbsp" },
+      { "name": "salt", "amount": "to taste" },
+      { "name": "black pepper", "amount": "to taste" }
+    ]
+  }
+]
