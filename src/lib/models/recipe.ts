@@ -10,4 +10,8 @@ export interface Recipe {
   image?: string;
   totalCo2?: number;
   totalPrice?: number;
+  duration?: string;
+  difficulty?: string;
+  calories?: number;
+  instructions?: string;
 }
