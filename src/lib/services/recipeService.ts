@@ -1,6 +1,7 @@
 import { writable, get } from "svelte/store";
 import type { Recipe } from "$lib/models/recipe";
 import { Season } from "$lib/models/season";
+import { Unit } from "$lib/models/unit";
 
 function normalizeSeason(value: string): Season {
   const season = value.trim().toLowerCase();
@@ -31,11 +32,39 @@ export class RecipeService {
         throw new Error(`Failed to fetch recipes: ${response.statusText}`);
       }
       const raw = await response.json();
-      const data: Recipe[] = raw.map((r: any) => ({
-        ...r,
-        id: String(r.id),
-        season: normalizeSeason(r.season)
-      }));
+      const data: Recipe[] = raw.map((r: any) => {
+        const ingredients = (r.ingredients || []).map((i: any) => {
+          const key = String(i.unit ?? '').toLowerCase();
+          const unitMap: Record<string, Unit> = {
+            g: Unit.Gram,
+            ml: Unit.Milliliter,
+            l: Unit.Liter,
+            el: Unit.Tablespoon,
+            tl: Unit.Teaspoon,
+            tasse: Unit.Cup,
+            zehe: Unit.Clove,
+            kopf: Unit.Head,
+            stange: Unit.Stalk,
+            stk: Unit.Piece,
+            none: Unit.None,
+          };
+          const unit = unitMap[key] ?? Unit.Piece;
+          return {
+            name: i.name,
+            amount: Number(i.amount) || 0,
+            unit,
+            co2: i.co2 ?? 0,
+            price: i.price ?? 0,
+          };
+        });
+
+        return {
+          ...r,
+          id: String(r.id),
+          season: normalizeSeason(r.season),
+          ingredients,
+        };
+      });
       console.log("Recipes loaded:", data); // Make sure recipes are loaded
       this.recipes.set(data); // Set recipes to the store
     } catch (error) {

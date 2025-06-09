@@ -3,7 +3,7 @@ import { Unit } from './unit';
 export interface Ingredient {
   name: string;
   amount: number;
-  unit: Unit; // e.g. 'g', 'ml', 'Stk', 'EL', 'TL', 'Tasse'
+  unit: Unit; // Uses Unit enum for all measurements
   co2: number;
   price: number;
 }

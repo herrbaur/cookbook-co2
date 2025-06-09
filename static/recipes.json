@@ -5,15 +5,51 @@
     "description": "Schichten aus Pasta mit Spinat, Ricotta und Tomatensauce.",
     "season": "Winter",
     "ingredients": [
-      { "name": "Lasagne-Nudeln", "amount": "250g" },
-      { "name": "Ricotta", "amount": "200g" },
-      { "name": "Spinat", "amount": "200g" },
-      { "name": "Tomatensauce", "amount": "500ml" },
-      { "name": "Mozzarella", "amount": "200g, gerieben" },
-      { "name": "Knoblauch", "amount": "2 Zehen, gehackt" },
-      { "name": "Olivenöl", "amount": "1 EL" },
-      { "name": "Salz", "amount": "nach Geschmack" },
-      { "name": "Schwarzer Pfeffer", "amount": "nach Geschmack" }
+      {
+        "name": "Lasagne-Nudeln",
+        "amount": 250.0,
+        "unit": "g"
+      },
+      {
+        "name": "Ricotta",
+        "amount": 200.0,
+        "unit": "g"
+      },
+      {
+        "name": "Spinat",
+        "amount": 200.0,
+        "unit": "g"
+      },
+      {
+        "name": "Tomatensauce",
+        "amount": 500.0,
+        "unit": "ml"
+      },
+      {
+        "name": "Mozzarella",
+        "amount": 200.0,
+        "unit": "g"
+      },
+      {
+        "name": "Knoblauch",
+        "amount": 2.0,
+        "unit": "Zehe"
+      },
+      {
+        "name": "Olivenöl",
+        "amount": 1.0,
+        "unit": "EL"
+      },
+      {
+        "name": "Salz",
+        "amount": 0,
+        "unit": "None"
+      },
+      {
+        "name": "Schwarzer Pfeffer",
+        "amount": 0,
+        "unit": "None"
+      }
     ]
   },
   {
@@ -22,13 +58,41 @@
     "description": "Tomaten, Mozzarella und Basilikum mit Olivenöl beträufelt.",
     "season": "Summer",
     "ingredients": [
-      { "name": "Tomaten", "amount": "3 große, in Scheiben" },
-      { "name": "Mozzarella", "amount": "200g" },
-      { "name": "Basilikumblätter", "amount": "eine Handvoll" },
-      { "name": "Olivenöl", "amount": "2 EL" },
-      { "name": "Balsamico-Essig", "amount": "1 EL" },
-      { "name": "Salz", "amount": "nach Geschmack" },
-      { "name": "Schwarzer Pfeffer", "amount": "nach Geschmack" }
+      {
+        "name": "Tomaten",
+        "amount": 3.0,
+        "unit": "Stk"
+      },
+      {
+        "name": "Mozzarella",
+        "amount": 200.0,
+        "unit": "g"
+      },
+      {
+        "name": "Basilikumblätter",
+        "amount": 0,
+        "unit": "None"
+      },
+      {
+        "name": "Olivenöl",
+        "amount": 2.0,
+        "unit": "EL"
+      },
+      {
+        "name": "Balsamico-Essig",
+        "amount": 1.0,
+        "unit": "EL"
+      },
+      {
+        "name": "Salz",
+        "amount": 0,
+        "unit": "None"
+      },
+      {
+        "name": "Schwarzer Pfeffer",
+        "amount": 0,
+        "unit": "None"
+      }
     ]
   },
   {
@@ -37,15 +101,51 @@
     "description": "Buntes Gemüse auf Spießen mit einer leichten Marinade gegrillt.",
     "season": "Summer",
     "ingredients": [
-      { "name": "Zucchini", "amount": "1, in Scheiben" },
-      { "name": "Paprika", "amount": "2, gewürfelt" },
-      { "name": "Champignons", "amount": "200g" },
-      { "name": "Cherrytomaten", "amount": "150g" },
-      { "name": "Olivenöl", "amount": "2 EL" },
-      { "name": "Sojasauce", "amount": "1 EL" },
-      { "name": "Knoblauch", "amount": "2 Zehen, gehackt" },
-      { "name": "Salz", "amount": "nach Geschmack" },
-      { "name": "Schwarzer Pfeffer", "amount": "nach Geschmack" }
+      {
+        "name": "Zucchini",
+        "amount": 1.0,
+        "unit": "Stk"
+      },
+      {
+        "name": "Paprika",
+        "amount": 2.0,
+        "unit": "Stk"
+      },
+      {
+        "name": "Champignons",
+        "amount": 200.0,
+        "unit": "g"
+      },
+      {
+        "name": "Cherrytomaten",
+        "amount": 150.0,
+        "unit": "g"
+      },
+      {
+        "name": "Olivenöl",
+        "amount": 2.0,
+        "unit": "EL"
+      },
+      {
+        "name": "Sojasauce",
+        "amount": 1.0,
+        "unit": "EL"
+      },
+      {
+        "name": "Knoblauch",
+        "amount": 2.0,
+        "unit": "Zehe"
+      },
+      {
+        "name": "Salz",
+        "amount": 0,
+        "unit": "None"
+      },
+      {
+        "name": "Schwarzer Pfeffer",
+        "amount": 0,
+        "unit": "None"
+      }
     ]
   },
   {
@@ -54,16 +154,56 @@
     "description": "Herzhafte Suppe mit Linsen und Gemüse.",
     "season": "Winter",
     "ingredients": [
-      { "name": "Linsen", "amount": "200g" },
-      { "name": "Karotten", "amount": "2, gehackt" },
-      { "name": "Sellerie", "amount": "2 Stangen, gehackt" },
-      { "name": "Zwiebel", "amount": "1, gehackt" },
-      { "name": "Gemüsebrühe", "amount": "1 Liter" },
-      { "name": "Tomatenmark", "amount": "2 EL" },
-      { "name": "Olivenöl", "amount": "1 EL" },
-      { "name": "Kreuzkümmel", "amount": "1 TL" },
-      { "name": "Salz", "amount": "nach Geschmack" },
-      { "name": "Schwarzer Pfeffer", "amount": "nach Geschmack" }
+      {
+        "name": "Linsen",
+        "amount": 200.0,
+        "unit": "g"
+      },
+      {
+        "name": "Karotten",
+        "amount": 2.0,
+        "unit": "Stk"
+      },
+      {
+        "name": "Sellerie",
+        "amount": 2.0,
+        "unit": "Stange"
+      },
+      {
+        "name": "Zwiebel",
+        "amount": 1.0,
+        "unit": "Stk"
+      },
+      {
+        "name": "Gemüsebrühe",
+        "amount": 1.0,
+        "unit": "l"
+      },
+      {
+        "name": "Tomatenmark",
+        "amount": 2.0,
+        "unit": "EL"
+      },
+      {
+        "name": "Olivenöl",
+        "amount": 1.0,
+        "unit": "EL"
+      },
+      {
+        "name": "Kreuzkümmel",
+        "amount": 1.0,
+        "unit": "TL"
+      },
+      {
+        "name": "Salz",
+        "amount": 0,
+        "unit": "None"
+      },
+      {
+        "name": "Schwarzer Pfeffer",
+        "amount": 0,
+        "unit": "None"
+      }
     ]
   },
   {
@@ -72,16 +212,56 @@
     "description": "Schnelle und gesunde Pfanne mit gemischtem Gemüse und Sojasauce.",
     "season": "Spring",
     "ingredients": [
-      { "name": "Brokkoli", "amount": "200g, Röschen" },
-      { "name": "Karotten", "amount": "2, in Streifen" },
-      { "name": "Paprika", "amount": "2, in Scheiben" },
-      { "name": "Zwiebel", "amount": "1 mittelgroß, in Scheiben" },
-      { "name": "Sojasauce", "amount": "2 EL" },
-      { "name": "Sesamöl", "amount": "1 EL" },
-      { "name": "Knoblauch", "amount": "2 Zehen, gehackt" },
-      { "name": "Ingwer", "amount": "1 Stück, gehackt" },
-      { "name": "Salz", "amount": "nach Geschmack" },
-      { "name": "Schwarzer Pfeffer", "amount": "nach Geschmack" }
+      {
+        "name": "Brokkoli",
+        "amount": 200.0,
+        "unit": "g"
+      },
+      {
+        "name": "Karotten",
+        "amount": 2.0,
+        "unit": "Stk"
+      },
+      {
+        "name": "Paprika",
+        "amount": 2.0,
+        "unit": "Stk"
+      },
+      {
+        "name": "Zwiebel",
+        "amount": 1.0,
+        "unit": "Stk"
+      },
+      {
+        "name": "Sojasauce",
+        "amount": 2.0,
+        "unit": "EL"
+      },
+      {
+        "name": "Sesamöl",
+        "amount": 1.0,
+        "unit": "EL"
+      },
+      {
+        "name": "Knoblauch",
+        "amount": 2.0,
+        "unit": "Zehe"
+      },
+      {
+        "name": "Ingwer",
+        "amount": 1.0,
+        "unit": "Stk"
+      },
+      {
+        "name": "Salz",
+        "amount": 0,
+        "unit": "None"
+      },
+      {
+        "name": "Schwarzer Pfeffer",
+        "amount": 0,
+        "unit": "None"
+      }
     ]
   },
   {
@@ -90,15 +270,51 @@
     "description": "Cremige Suppe aus geröstetem Kürbis und Gewürzen.",
     "season": "Fall",
     "ingredients": [
-      { "name": "Kürbis", "amount": "500g, gewürfelt" },
-      { "name": "Zwiebel", "amount": "1 groß, gehackt" },
-      { "name": "Knoblauch", "amount": "2 Zehen, gehackt" },
-      { "name": "Gemüsebrühe", "amount": "750ml" },
-      { "name": "Kokosmilch", "amount": "200ml" },
-      { "name": "Olivenöl", "amount": "1 EL" },
-      { "name": "Muskat", "amount": "1/4 TL" },
-      { "name": "Salz", "amount": "nach Geschmack" },
-      { "name": "Schwarzer Pfeffer", "amount": "nach Geschmack" }
+      {
+        "name": "Kürbis",
+        "amount": 500.0,
+        "unit": "g"
+      },
+      {
+        "name": "Zwiebel",
+        "amount": 1.0,
+        "unit": "Stk"
+      },
+      {
+        "name": "Knoblauch",
+        "amount": 2.0,
+        "unit": "Zehe"
+      },
+      {
+        "name": "Gemüsebrühe",
+        "amount": 750.0,
+        "unit": "ml"
+      },
+      {
+        "name": "Kokosmilch",
+        "amount": 200.0,
+        "unit": "ml"
+      },
+      {
+        "name": "Olivenöl",
+        "amount": 1.0,
+        "unit": "EL"
+      },
+      {
+        "name": "Muskat",
+        "amount": 0.25,
+        "unit": "TL"
+      },
+      {
+        "name": "Salz",
+        "amount": 0,
+        "unit": "None"
+      },
+      {
+        "name": "Schwarzer Pfeffer",
+        "amount": 0,
+        "unit": "None"
+      }
     ]
   },
   {
@@ -107,13 +323,41 @@
     "description": "Weiche Tortillas gefüllt mit gewürzten Kichererbsen und Belag.",
     "season": "Summer",
     "ingredients": [
-      { "name": "Kichererbsen", "amount": "400g, gekocht" },
-      { "name": "Taco-Gewürz", "amount": "2 EL" },
-      { "name": "weiche Tortillas", "amount": "8" },
-      { "name": "Salsa", "amount": "1/2 Tasse" },
-      { "name": "Avocado", "amount": "1, in Scheiben" },
-      { "name": "Kopfsalat", "amount": "1/2 Kopf, geschnitten" },
-      { "name": "Koriander", "amount": "1/4 Tasse, gehackt" }
+      {
+        "name": "Kichererbsen",
+        "amount": 400.0,
+        "unit": "g"
+      },
+      {
+        "name": "Taco-Gewürz",
+        "amount": 2.0,
+        "unit": "EL"
+      },
+      {
+        "name": "weiche Tortillas",
+        "amount": 8.0,
+        "unit": "Stk"
+      },
+      {
+        "name": "Salsa",
+        "amount": 0.5,
+        "unit": "Tasse"
+      },
+      {
+        "name": "Avocado",
+        "amount": 1.0,
+        "unit": "Stk"
+      },
+      {
+        "name": "Kopfsalat",
+        "amount": 0.5,
+        "unit": "Kopf"
+      },
+      {
+        "name": "Koriander",
+        "amount": 0.25,
+        "unit": "Tasse"
+      }
     ]
   },
   {
@@ -122,15 +366,51 @@
     "description": "Frittierte Auberginenscheiben mit Marinara-Sauce und geschmolzenem Käse.",
     "season": "Fall",
     "ingredients": [
-      { "name": "Aubergine", "amount": "2 mittelgroß, in Scheiben" },
-      { "name": "Paniermehl", "amount": "1 Tasse" },
-      { "name": "Ei", "amount": "1, verquirlt" },
-      { "name": "Marinara-Sauce", "amount": "1 Tasse" },
-      { "name": "Mozzarella", "amount": "200g, gerieben" },
-      { "name": "Parmesan", "amount": "50g, gerieben" },
-      { "name": "Olivenöl", "amount": "zum Frittieren" },
-      { "name": "Salz", "amount": "nach Geschmack" },
-      { "name": "Schwarzer Pfeffer", "amount": "nach Geschmack" }
+      {
+        "name": "Aubergine",
+        "amount": 2.0,
+        "unit": "Stk"
+      },
+      {
+        "name": "Paniermehl",
+        "amount": 1.0,
+        "unit": "Tasse"
+      },
+      {
+        "name": "Ei",
+        "amount": 1.0,
+        "unit": "Stk"
+      },
+      {
+        "name": "Marinara-Sauce",
+        "amount": 1.0,
+        "unit": "Tasse"
+      },
+      {
+        "name": "Mozzarella",
+        "amount": 200.0,
+        "unit": "g"
+      },
+      {
+        "name": "Parmesan",
+        "amount": 50.0,
+        "unit": "g"
+      },
+      {
+        "name": "Olivenöl",
+        "amount": 0,
+        "unit": "None"
+      },
+      {
+        "name": "Salz",
+        "amount": 0,
+        "unit": "None"
+      },
+      {
+        "name": "Schwarzer Pfeffer",
+        "amount": 0,
+        "unit": "None"
+      }
     ]
   },
   {
@@ -139,12 +419,36 @@
     "description": "Klassischer Caesar-Salat mit Römersalat, Croutons und cremigem Dressing.",
     "season": "Summer",
     "ingredients": [
-      { "name": "Römersalat", "amount": "2 Köpfe, gehackt" },
-      { "name": "Croutons", "amount": "1 Tasse" },
-      { "name": "Parmesan", "amount": "50g, gerieben" },
-      { "name": "Caesar-Dressing", "amount": "1/2 Tasse" },
-      { "name": "Salz", "amount": "nach Geschmack" },
-      { "name": "Schwarzer Pfeffer", "amount": "nach Geschmack" }
+      {
+        "name": "Römersalat",
+        "amount": 2.0,
+        "unit": "Kopf"
+      },
+      {
+        "name": "Croutons",
+        "amount": 1.0,
+        "unit": "Tasse"
+      },
+      {
+        "name": "Parmesan",
+        "amount": 50.0,
+        "unit": "g"
+      },
+      {
+        "name": "Caesar-Dressing",
+        "amount": 0.5,
+        "unit": "Tasse"
+      },
+      {
+        "name": "Salz",
+        "amount": 0,
+        "unit": "None"
+      },
+      {
+        "name": "Schwarzer Pfeffer",
+        "amount": 0,
+        "unit": "None"
+      }
     ]
   },
   {
@@ -153,17 +457,61 @@
     "description": "Paprika gefüllt mit Reis, Bohnen und Käse.",
     "season": "Spring",
     "ingredients": [
-      { "name": "Paprika", "amount": "4, halbiert" },
-      { "name": "gekochter Reis", "amount": "1 Tasse" },
-      { "name": "schwarze Bohnen", "amount": "1 Tasse" },
-      { "name": "Mais", "amount": "1/2 Tasse" },
-      { "name": "Tomatensauce", "amount": "1 Tasse" },
-      { "name": "Käse", "amount": "1/2 Tasse, gerieben" },
-      { "name": "Zwiebel", "amount": "1, gehackt" },
-      { "name": "Knoblauch", "amount": "2 Zehen, gehackt" },
-      { "name": "Olivenöl", "amount": "1 EL" },
-      { "name": "Salz", "amount": "nach Geschmack" },
-      { "name": "Schwarzer Pfeffer", "amount": "nach Geschmack" }
+      {
+        "name": "Paprika",
+        "amount": 4.0,
+        "unit": "Stk"
+      },
+      {
+        "name": "gekochter Reis",
+        "amount": 1.0,
+        "unit": "Tasse"
+      },
+      {
+        "name": "schwarze Bohnen",
+        "amount": 1.0,
+        "unit": "Tasse"
+      },
+      {
+        "name": "Mais",
+        "amount": 0.5,
+        "unit": "Tasse"
+      },
+      {
+        "name": "Tomatensauce",
+        "amount": 1.0,
+        "unit": "Tasse"
+      },
+      {
+        "name": "Käse",
+        "amount": 0.5,
+        "unit": "Tasse"
+      },
+      {
+        "name": "Zwiebel",
+        "amount": 1.0,
+        "unit": "Stk"
+      },
+      {
+        "name": "Knoblauch",
+        "amount": 2.0,
+        "unit": "Zehe"
+      },
+      {
+        "name": "Olivenöl",
+        "amount": 1.0,
+        "unit": "EL"
+      },
+      {
+        "name": "Salz",
+        "amount": 0,
+        "unit": "None"
+      },
+      {
+        "name": "Schwarzer Pfeffer",
+        "amount": 0,
+        "unit": "None"
+      }
     ]
   },
   {
@@ -172,17 +520,61 @@
     "description": "Cremiges Risotto mit sautierten Pilzen und Parmesan.",
     "season": "Fall",
     "ingredients": [
-      { "name": "Arborio-Reis", "amount": "200g" },
-      { "name": "Champignons", "amount": "200g, in Scheiben" },
-      { "name": "Zwiebel", "amount": "1 klein, gehackt" },
-      { "name": "Knoblauch", "amount": "2 Zehen, gehackt" },
-      { "name": "Gemüsebrühe", "amount": "750ml" },
-      { "name": "Weißwein", "amount": "100ml" },
-      { "name": "Parmesan", "amount": "50g, gerieben" },
-      { "name": "Butter", "amount": "2 EL" },
-      { "name": "Olivenöl", "amount": "1 EL" },
-      { "name": "Salz", "amount": "nach Geschmack" },
-      { "name": "Schwarzer Pfeffer", "amount": "nach Geschmack" }
+      {
+        "name": "Arborio-Reis",
+        "amount": 200.0,
+        "unit": "g"
+      },
+      {
+        "name": "Champignons",
+        "amount": 200.0,
+        "unit": "g"
+      },
+      {
+        "name": "Zwiebel",
+        "amount": 1.0,
+        "unit": "Stk"
+      },
+      {
+        "name": "Knoblauch",
+        "amount": 2.0,
+        "unit": "Zehe"
+      },
+      {
+        "name": "Gemüsebrühe",
+        "amount": 750.0,
+        "unit": "ml"
+      },
+      {
+        "name": "Weißwein",
+        "amount": 100.0,
+        "unit": "ml"
+      },
+      {
+        "name": "Parmesan",
+        "amount": 50.0,
+        "unit": "g"
+      },
+      {
+        "name": "Butter",
+        "amount": 2.0,
+        "unit": "EL"
+      },
+      {
+        "name": "Olivenöl",
+        "amount": 1.0,
+        "unit": "EL"
+      },
+      {
+        "name": "Salz",
+        "amount": 0,
+        "unit": "None"
+      },
+      {
+        "name": "Schwarzer Pfeffer",
+        "amount": 0,
+        "unit": "None"
+      }
     ]
   }
 ]
