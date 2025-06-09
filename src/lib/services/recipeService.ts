@@ -3,14 +3,16 @@ import type { Recipe } from "$lib/models/recipe";
 import { Season } from "$lib/models/season";
 
 function normalizeSeason(value: string): Season {
-  switch (value) {
-    case 'Spring':
+  const season = value.trim().toLowerCase();
+  if (season.includes('autumn') || season.includes('fall')) {
+    return Season.Fall;
+  }
+  switch (season) {
+    case 'spring':
       return Season.Spring;
-    case 'Summer':
+    case 'summer':
       return Season.Summer;
-    case 'Fall':
-      return Season.Fall;
-    case 'Winter':
+    case 'winter':
       return Season.Winter;
     default:
       return Season.Summer;
