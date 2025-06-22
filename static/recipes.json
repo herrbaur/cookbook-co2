@@ -2,8 +2,10 @@
   {
     "id": 1,
     "title": "Gemüse-Lasagne",
+    "image": "/images/gemuese-lasagne.jpeg",
     "description": "Schichten aus Pasta mit Spinat, Ricotta und Tomatensauce.",
     "season": "Winter",
+    "servings": 1,
     "ingredients": [
       {
         "name": "Lasagne-Nudeln",
@@ -56,8 +58,10 @@
   {
     "id": 2,
     "title": "Caprese-Salat",
+    "image": "/images/caprese-salat.jpeg",
     "description": "Tomaten, Mozzarella und Basilikum mit Olivenöl beträufelt.",
     "season": "Summer",
+    "servings": 1,
     "ingredients": [
       {
         "name": "Tomaten",
@@ -100,8 +104,10 @@
   {
     "id": 3,
     "title": "Gegrillte Gemüsespieße",
+    "image": "/images/gegrillte-gemuesespiesse.jpeg",
     "description": "Buntes Gemüse auf Spießen mit einer leichten Marinade gegrillt.",
     "season": "Summer",
+    "servings": 1,
     "ingredients": [
       {
         "name": "Zucchini",
@@ -154,8 +160,10 @@
   {
     "id": 4,
     "title": "Linsensuppe",
+    "image": "/images/linsensuppe.jpeg",
     "description": "Herzhafte Suppe mit Linsen und Gemüse.",
     "season": "Winter",
+    "servings": 1,
     "ingredients": [
       {
         "name": "Linsen",
@@ -213,8 +221,10 @@
   {
     "id": 5,
     "title": "Gemüsepfanne",
+    "image": "/images/gemuesepfanne.jpeg",
     "description": "Schnelle und gesunde Pfanne mit gemischtem Gemüse und Sojasauce.",
     "season": "Spring",
+    "servings": 1,
     "ingredients": [
       {
         "name": "Brokkoli",
@@ -272,8 +282,10 @@
   {
     "id": 6,
     "title": "Kürbissuppe",
+    "image": "/images/kuerbissuppe.jpeg",
     "description": "Cremige Suppe aus geröstetem Kürbis und Gewürzen.",
     "season": "Fall",
+    "servings": 1,
     "ingredients": [
       {
         "name": "Kürbis",
@@ -326,8 +338,10 @@
   {
     "id": 7,
     "title": "Kichererbsen-Tacos",
+    "image": "/images/kichererbsen-tacos.jpeg",
     "description": "Weiche Tortillas gefüllt mit gewürzten Kichererbsen und Belag.",
     "season": "Summer",
+    "servings": 1,
     "ingredients": [
       {
         "name": "Kichererbsen",
@@ -370,8 +384,10 @@
   {
     "id": 8,
     "title": "Auberginen-Parmesan",
+    "image": "/images/auberginen-parmesan.jpeg",
     "description": "Frittierte Auberginenscheiben mit Marinara-Sauce und geschmolzenem Käse.",
     "season": "Fall",
+    "servings": 1,
     "ingredients": [
       {
         "name": "Aubergine",
@@ -424,8 +440,10 @@
   {
     "id": 9,
     "title": "Caesar-Salat",
+    "image": "/images/caesar-salat.jpeg",
     "description": "Klassischer Caesar-Salat mit Römersalat, Croutons und cremigem Dressing.",
     "season": "Summer",
+    "servings": 1,
     "ingredients": [
       {
         "name": "Römersalat",
@@ -463,8 +481,10 @@
   {
     "id": 10,
     "title": "Gefüllte Paprika",
+    "image": "/images/gefuellte-paprika.jpeg",
     "description": "Paprika gefüllt mit Reis, Bohnen und Käse.",
     "season": "Spring",
+    "servings": 1,
     "ingredients": [
       {
         "name": "Paprika",
@@ -527,8 +547,10 @@
   {
     "id": 11,
     "title": "Pilzrisotto",
+    "image": "/images/pilzrisotto.jpeg",
     "description": "Cremiges Risotto mit sautierten Pilzen und Parmesan.",
     "season": "Fall",
+    "servings": 1,
     "ingredients": [
       {
         "name": "Arborio-Reis",

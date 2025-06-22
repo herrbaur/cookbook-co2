@@ -1,0 +1,62 @@
+:root {
+  --primary: #4CAF50;
+  --secondary: #8BC34A;
+  --light-bg: #f9fbe7;
+}
+
+body {
+  background-color: var(--light-bg);
+  color: #333;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.card {
+  border: none;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+
+.card-img-top {
+  object-fit: cover;
+  height: 200px;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+}
+h1 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  margin-bottom: 0;
+}
+
+.lead {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.2rem;
+  color: #555;
+}
+/* Jahreszeitenfarben */
+.season-spring {
+  background-color: #8bc34a;
+  color: white;
+  border: none;
+}
+.season-summer {
+  background-color: #ffca28;
+  color: #333;
+  border: none;
+}
+.season-fall {
+  background-color: #ff8a65;
+  color: white;
+  border: none;
+}
+.season-winter {
+  background-color: #42a5f5;
+  color: white;
+  border: none;
+}
+
+.outline-season {
+  background-color: transparent;
+  border: 1px solid #42a5f5;
+  color: #42a5f5;
+}
