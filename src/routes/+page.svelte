@@ -26,7 +26,7 @@
 
   const getImage = (imagePath: string): string => {
     // Hier wird der Pfad zum Bild generiert
-    return `/images/${imagePath}`;
+    return imagePath.startsWith("/")? imagePath:`/images/${imagePath}`;
   };
 
   // Rezepte laden und filtern
@@ -134,6 +134,7 @@
               : getImage(recipe.image)}
             class="card-img-top"
             alt="Bild vom Rezept"
+            style="width: 100%; height: 200px; object-fit: cover; border-radius: 0.5rem;"
           />
           <div class="card-body">
             <h5 class="card-title">{recipe.title}</h5>
@@ -160,6 +161,7 @@
               src={selectedRecipe.image == null ? '/images/default.jpeg' : getImage(selectedRecipe.image)}
               class="img-fluid rounded"
               alt="Bild vom Rezept"
+              style="width: 100%; height: 250px; object-fit: cover; border-radius: 0.5rem;"
             />
             <div class="d-flex justify-content-center gap-2 mt-2">
               {#if selectedRecipe.duration}<span class="badge bg-info">{selectedRecipe.duration}</span>{/if}
