@@ -1,9 +1,0 @@
-:root {
-  --bs-primary: #28a745;
-  --bs-light-rgb: 232,245,233;
-  --bs-body-bg: #f3fff3;
-}
-
-body {
-  background-color: var(--bs-body-bg);
-}
