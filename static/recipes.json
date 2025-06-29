@@ -609,5 +609,326 @@
       }
     ],
     "instructions": "Reis mit Zwiebeln anschwitzen, nach und nach Brühe angießen, Pilze separat braten und am Ende unterheben."
+  },
+  {
+   "id": 12,
+    "title": "Spargelsalat mit Ei",
+    "image": "/images/spargelsalat-ei.jpeg",
+    "description": "Frischer grüner Spargel mit Ei, Vinaigrette und Kresse.",
+    "season": "Spring",
+    "servings": 1,
+    "ingredients": [
+      {
+        "name": "Grüner Spargel",
+        "amount": 200.0,
+        "unit": "g"
+      },
+      {
+        "name": "Eier",
+        "amount": 1.0,
+        "unit": "Stk"
+      },
+      {
+        "name": "Kresse",
+        "amount": 1.0,
+        "unit": "Handvoll"
+      },
+      {
+        "name": "Olivenöl",
+        "amount": 2.0,
+        "unit": "EL"
+      },
+      {
+        "name": "Essig",
+        "amount": 1.0,
+        "unit": "EL"
+      },
+      {
+        "name": "Senf",
+        "amount": 1.0,
+        "unit": "TL"
+      },
+      {
+        "name": "Salz",
+        "amount": 1.0,
+        "unit": "None"
+      },
+      {
+        "name": "Schwarzer Pfeffer",
+        "amount": 0,
+        "unit": "None"
+      }
+    ],
+    "instructions": "Spargel blanchieren, Ei hart kochen. Vinaigrette aus Öl, Essig, Senf zubereiten. Alles vermengen, mit Kresse bestreuen."
+  },
+   {
+   "id": 13,
+    "title": "Frühlingsgemüse-Pfanne",
+    "image": "/images/fruehlingsgemuese-pfanne.jpeg",
+    "description": "Bunte Gemüsepfanne mit Karotten, Erbsen und Lauch.",
+    "season": "Spring",
+    "servings": 1,
+    "ingredients": [
+       {"name": "Karotten", "amount": 100.0, "unit": "g"},
+       {"name": "Erbsen", "amount": 100.0, "unit": "g"},
+       {"name": "Lauch", "amount": 100.0, "unit": "g"},
+       {"name": "Butter", "amount": 1.0, "unit": "EL"},
+       {"name": "Petersilie", "amount": 1.0, "unit": "EL"},
+       {"name": "Salz", "amount": 0, "unit": "None"},
+       {"name": "Pfeffer", "amount": 0, "unit": "None"}
+    ],
+    "instructions": "Gemüse in Butter anbraten, mit Salz, Pfeffer und Petersilie würzen. Kurz dünsten und servieren."
+  },
+  {
+   "id": 14,
+    "title": "Rhabarber-Crumble",
+    "image": "/images/rhabarber-crumble.jpeg",
+    "description": "Süßer Auflauf mit Rhabarber und knusprigen Streuseln.",
+    "season": "Spring",
+    "servings": 1,
+    "ingredients": [
+            {"name": "Rhabarber", "amount": 200.0, "unit": "g"},
+            {"name": "Zucker", "amount": 50.0, "unit": "g"},
+            {"name": "Mehl", "amount": 75.0, "unit": "g"},
+            {"name": "Butter", "amount": 50.0, "unit": "g"},
+            {"name": "Vanillezucker", "amount": 1.0, "unit": "Päckchen"}
+    ],
+    "instructions": "Rhabarber mit Zucker mischen, in eine Form geben. Streusel aus Mehl, Butter, Vanillezucker kneten, darüber streuen und backen."
+  },
+    {
+   "id": 15,
+    "title": "Spargel-Risotto",
+    "image": "/images/spargel-risotto.jpeg",
+    "description": "Cremiges Risotto mit grünem Spargel und Parmesan.",
+    "season": "Spring",
+    "servings": 1,
+    "ingredients": [
+           {"name": "Risottoreis", "amount": 100.0, "unit": "g"},
+            {"name": "Grüner Spargel", "amount": 150.0, "unit": "g"},
+            {"name": "Zwiebel", "amount": 0.5, "unit": "Stück"},
+            {"name": "Gemüsebrühe", "amount": 400.0, "unit": "ml"},
+            {"name": "Parmesan", "amount": 30.0, "unit": "g"},
+            {"name": "Butter", "amount": 1.0, "unit": "EL"},
+            {"name": "Olivenöl", "amount": 1.0, "unit": "EL"},
+            {"name": "Salz", "amount": 0, "unit": "None"},
+            {"name": "Pfeffer", "amount": 0, "unit": "None"}
+    ],
+    "instructions": "Spargel in Stücke schneiden und blanchieren. Zwiebel andünsten, Reis dazu, Brühe nach und nach zugeben. Spargel und Parmesan unterrühren."
+  },
+   {
+   "id": 16,
+    "title": "Lauchquiche",
+    "image": "/images/lauchquiche.jpeg",
+    "description": "Herzhafte Quiche mit Lauch, Käse und Mürbeteig.",
+    "season": "Spring",
+    "servings": 1,
+    "ingredients": [
+            {"name": "Lauch", "amount": 200.0, "unit": "g"},
+            {"name": "Eier", "amount": 2.0, "unit": "Stück"},
+            {"name": "Sahne", "amount": 100.0, "unit": "ml"},
+            {"name": "Käse", "amount": 100.0, "unit": "g"},
+            {"name": "Mehl", "amount": 150.0, "unit": "g"},
+            {"name": "Butter", "amount": 75.0, "unit": "g"},
+            {"name": "Salz", "amount": 0, "unit": "None"},
+            {"name": "Pfeffer", "amount": 0, "unit": "None"}
+    ],
+    "instructions": "Mürbeteig zubereiten und in Form geben. Lauch dünsten, mit Eiern, Sahne und Käse vermengen. Auf Teig geben und backen."
+  },
+   {
+   "id": 17,
+    "title": "Kaltschale mit Beeren",
+    "image": "/images/beerensuppe.jpeg",
+    "description": "Erfrischende Fruchtsuppe mit Beeren für heiße Tage.",
+    "season": "Sommer",
+    "servings": 1,
+    "ingredients": [
+            {"name": "Gemischte Beeren", "amount": 200.0, "unit": "g"},
+            {"name": "Joghurt", "amount": 150.0, "unit": "g"},
+            {"name": "Honig", "amount": 1.0, "unit": "EL"},
+            {"name": "Zitrone", "amount": 0.5, "unit": "Stück"},
+            {"name": "Minze", "amount": 1.0, "unit": "Zweig"}
+    ],
+    "instructions": "Beeren pürieren, mit Joghurt, Honig und Zitronensaft vermischen, kalt servieren und mit Minze garnieren."
+  },
+  {
+   "id": 18,
+    "title": "Pfirsich-Mozzarella-Salat",
+    "image": "/images/pfirsich-mozzarella.jpeg",
+    "description": "Süß-herzhafter Salat mit Pfirsich, Mozzarella und Rucola.",
+    "season": "Sommer",
+    "servings": 1,
+    "ingredients": [
+             {"name": "Pfirsiche", "amount": 2.0, "unit": "Stück"},
+            {"name": "Mozzarella", "amount": 100.0, "unit": "g"},
+            {"name": "Rucola", "amount": 50.0, "unit": "g"},
+            {"name": "Pinienkerne", "amount": 1.0, "unit": "EL"},
+            {"name": "Olivenöl", "amount": 1.0, "unit": "EL"},
+            {"name": "Balsamico", "amount": 1.0, "unit": "TL"},
+            {"name": "Salz", "amount": 0, "unit": "None"},
+            {"name": "Pfeffer", "amount": 0, "unit": "None"}
+    ],
+    "instructions": "Pfirsiche in Spalten schneiden, mit Mozzarella und Rucola anrichten. Mit Pinienkernen bestreuen, Öl und Balsamico darübergeben."
+  },
+  {
+   "id": 19,
+    "title": "Maiskolben vom Grill",
+    "image": "/images/maiskolben.jpeg",
+    "description": "Gegrillte Maiskolben mit Kräuterbutter.",
+    "season": "Sommer",
+    "servings": 1,
+    "ingredients": [
+              {"name": "Maiskolben", "amount": 1.0, "unit": "Stück"},
+            {"name": "Butter", "amount": 1.0, "unit": "EL"},
+            {"name": "Petersilie", "amount": 1.0, "unit": "TL"},
+            {"name": "Knoblauch", "amount": 0.5, "unit": "Zehe"},
+            {"name": "Salz", "amount": 0, "unit": "None"}
+    ],
+    "instructions": "Butter mit gehacktem Knoblauch und Petersilie mischen. Maiskolben grillen und mit Kräuterbutter bestreichen."
+  },
+  {
+   "id": 20,
+    "title": "Apfel-Zimt-Porridge",
+    "image": "/images/apfel-porridge.jpeg",
+    "description": "Wärmender Haferbrei mit Apfelstücken und Zimt.",
+    "season": "Autumn",
+    "servings": 1,
+    "ingredients": [
+             {"name": "Haferflocken", "amount": 50.0, "unit": "g"},
+            {"name": "Apfel", "amount": 1.0, "unit": "Stück"},
+            {"name": "Milch", "amount": 250.0, "unit": "ml"},
+            {"name": "Zimt", "amount": 1.0, "unit": "Prise"},
+            {"name": "Honig", "amount": 1.0, "unit": "TL"}
+    ],
+    "instructions": "Haferflocken mit Milch aufkochen, Apfelwürfel und Zimt zugeben. 5 Minuten köcheln lassen, mit Honig süßen."
+  },
+  {
+   "id": 21,
+    "title": "Flammkuchen mit Kürbis",
+    "image": "/images/flammkuchen-kuerbis.jpeg",
+    "description": "Knuspriger Flammkuchen mit Hokkaido, Zwiebeln und Schmand.",
+    "season": "Autumn",
+    "servings": 1,
+    "ingredients": [
+            {"name": "Flammkuchenteig", "amount": 1.0, "unit": "Portion"},
+            {"name": "Hokkaido-Kürbis", "amount": 150.0, "unit": "g"},
+            {"name": "Zwiebel", "amount": 0.5, "unit": "Stück"},
+            {"name": "Schmand", "amount": 100.0, "unit": "g"},
+            {"name": "Salz", "amount": 0, "unit": "None"},
+            {"name": "Pfeffer", "amount": 0, "unit": "None"},
+            {"name": "Muskat", "amount": 1.0, "unit": "Prise"}
+    ],
+    "instructions": "Teig mit Schmand bestreichen, Kürbis und Zwiebel dünn darauf verteilen, würzen und im Ofen knusprig backen."
+  },
+  {
+   "id": 22,
+    "title": "Linsen-Eintopf",
+    "image": "/images/linseneintopf.jpeg",
+    "description": "Herzhafter Eintopf mit Linsen, Karotten und Sellerie.",
+    "season": "Autumn",
+    "servings": 1,
+    "ingredients": [
+            {"name": "Linsen", "amount": 100.0, "unit": "g"},
+            {"name": "Karotten", "amount": 100.0, "unit": "g"},
+            {"name": "Sellerie", "amount": 50.0, "unit": "g"},
+            {"name": "Zwiebel", "amount": 1.0, "unit": "Stück"},
+            {"name": "Gemüsebrühe", "amount": 600.0, "unit": "ml"},
+            {"name": "Lorbeerblatt", "amount": 1.0, "unit": "Stück"},
+            {"name": "Salz", "amount": 0, "unit": "None"},
+            {"name": "Pfeffer", "amount": 0, "unit": "None"}
+    ],
+    "instructions": "Gemüse würfeln, mit Linsen und Brühe aufkochen. Mit Lorbeerblatt 30 Minuten köcheln lassen, mit Salz und Pfeffer abschmecken."
+  },
+   {
+   "id": 23,
+    "title": "Wirsingrouladen",
+    "image": "/images/wirsingrouladen.jpeg",
+    "description": "Gefüllte Wirsingblätter mit Reis und Pilzen.",
+    "season": "Winter",
+    "servings": 1,
+    "ingredients": [
+             {"name": "Wirsing", "amount": 4.0, "unit": "Blätter"},
+            {"name": "Reis", "amount": 100.0, "unit": "g"},
+            {"name": "Pilze", "amount": 100.0, "unit": "g"},
+            {"name": "Zwiebel", "amount": 0.5, "unit": "Stück"},
+            {"name": "Gemüsebrühe", "amount": 200.0, "unit": "ml"},
+            {"name": "Salz", "amount": 0, "unit": "None"},
+            {"name": "Pfeffer", "amount": 0, "unit": "None"}
+    ],
+    "instructions": "Wirsingblätter blanchieren. Reis, Pilze und Zwiebel andünsten, würzen. Füllung einwickeln, in Brühe schmoren."
+  },
+   {
+   "id": 24,
+    "title": "Rotkohl mit Äpfeln",
+    "image": "/images/rotkohl-aepfel.jpeg",
+    "description": "Klassischer Rotkohl mit Apfelstücken und Gewürzen.",
+    "season": "Winter",
+    "servings": 1,
+    "ingredients": [
+             {"name": "Rotkohl", "amount": 300.0, "unit": "g"},
+            {"name": "Äpfel", "amount": 1.0, "unit": "Stück"},
+            {"name": "Zwiebel", "amount": 0.5, "unit": "Stück"},
+            {"name": "Apfelessig", "amount": 2.0, "unit": "EL"},
+            {"name": "Zucker", "amount": 1.0, "unit": "TL"},
+            {"name": "Nelken", "amount": 2.0, "unit": "Stück"},
+            {"name": "Salz", "amount": 0, "unit": "None"},
+            {"name": "Pfeffer", "amount": 0, "unit": "None"}
+    ],
+    "instructions": "Rotkohl hobeln, mit Apfel, Zwiebel, Essig, Zucker und Gewürzen dünsten."
+  },
+     {
+   "id": 25,
+    "title": "Maroni-Creme",
+    "image": "/images/maroni-creme.jpeg",
+    "description": "Feine Maronensuppe mit Sahne verfeinert.",
+    "season": "Winter",
+    "servings": 1,
+    "ingredients": [
+           {"name": "Maroni", "amount": 200.0, "unit": "g"},
+            {"name": "Zwiebel", "amount": 1.0, "unit": "Stück"},
+            {"name": "Gemüsebrühe", "amount": 400.0, "unit": "ml"},
+            {"name": "Sahne", "amount": 50.0, "unit": "ml"},
+            {"name": "Butter", "amount": 1.0, "unit": "EL"},
+            {"name": "Muskat", "amount": 1.0, "unit": "Prise"},
+            {"name": "Salz", "amount": 0, "unit": "None"},
+            {"name": "Pfeffer", "amount": 0, "unit": "None"}
+    ],
+    "instructions": "Zwiebel und Maroni anbraten, mit Brühe ablöschen, pürieren, mit Sahne und Muskat verfeinern."
+  },
+    {
+   "id": 26,
+    "title": "Rosenkohl aus dem Ofen",
+    "image": "/images/rosenkohl-ofen.jpeg",
+    "description": "Gerösteter Rosenkohl mit Olivenöl und Gewürzen.",
+    "season": "Winter",
+    "servings": 1,
+    "ingredients": [
+            {"name": "Rosenkohl", "amount": 300.0, "unit": "g"},
+            {"name": "Olivenöl", "amount": 2.0, "unit": "EL"},
+            {"name": "Knoblauch", "amount": 1.0, "unit": "Zehe"},
+            {"name": "Paprikapulver", "amount": 0.5, "unit": "TL"},
+            {"name": "Salz", "amount": 0, "unit": "None"},
+            {"name": "Pfeffer", "amount": 0, "unit": "None"}
+    ],
+    "instructions": "Rosenkohl halbieren, mit Öl, Knoblauch und Gewürzen vermengen, im Ofen rösten."
+  },
+   {
+   "id": 27,
+    "title": "Winterlicher Linsensalat",
+    "image": "/images/linsensalat-winter.jpeg",
+    "description": "Warmer Salat mit Linsen, Feldsalat und Walnüssen.",
+    "season": "Winter",
+    "servings": 1,
+    "ingredients": [
+            {"name": "Linsen", "amount": 100.0, "unit": "g"},
+            {"name": "Feldsalat", "amount": 50.0, "unit": "g"},
+            {"name": "Walnüsse", "amount": 20.0, "unit": "g"},
+            {"name": "Apfelessig", "amount": 1.0, "unit": "EL"},
+            {"name": "Olivenöl", "amount": 2.0, "unit": "EL"},
+            {"name": "Senf", "amount": 1.0, "unit": "TL"},
+            {"name": "Salz", "amount": 0, "unit": "None"},
+            {"name": "Pfeffer", "amount": 0, "unit": "None"}
+    ],
+    "instructions": "Linsen kochen, mit Dressing aus Öl, Essig, Senf vermengen. Feldsalat und Walnüsse untermischen."
   }
 ]
+
